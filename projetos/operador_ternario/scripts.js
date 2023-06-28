@@ -1,16 +1,15 @@
-// console.log(1 > 2)
-// console.log(5 < 10)
-// console.log(3 >= 3)
-// console.log(5 <= 4)
-// console.log('Matheus' != 'Matheus')
-// console.log(3 === '3')
-// console.log(4 === 4)
+// e true ? então 1 senão 2 -> 1
+console.log(true ? 1 : 2)
 
-console.log(typeof (1 > 2))
-console.log(typeof (5 < 10))
-console.log(typeof (3 >= 3))
-console.log(typeof (5 <= 4))
-console.log(typeof ('Matheus' != 'Matheus'))
-console.log(typeof (3 === '3'))
-console.log(typeof (4 === 4))
+//e falso ? falso senão verdadeiro -> verdadeiro
+console.log(false ? 'falso' : 'verdadeiro')
+
+console.log(5 > 2 ? 'É sim' : 'É não')
+
+
+console.log(typeof (true ? 1 : 2))
+console.log(typeof (false ? 'falso' : 'verdadeiro'))
+console.log("Matheus" == "Matheus" ? "Olá, Matheus!" : "Não é o Matheus!")
+
+
 
