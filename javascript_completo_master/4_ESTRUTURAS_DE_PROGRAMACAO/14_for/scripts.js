@@ -5,7 +5,7 @@
 // varivel 1 recebe 0; i enquanto for menor que 100; faça i recebe ( i + 3)
 for(let i = 2; i < 100; i = i + 5) {
 
-  //1º let i = 0; i < 100; i = 2 + 3 = 5
+  //1º let i = 2; i < 100; i = 2 + 3 = 5
   //2º let i = 5; i < 100; i = 5 + 5 = 10
   //3º let i = 10; i < 100; i = 10 + 5 = 15
   //4º let i = 15; i < 100; i = 9 + 5 = 20
@@ -29,7 +29,7 @@ for(let i = 2; i < 100; i = i + 5) {
   
 
   // ultilizando template String para realizar a soma da varialvel
-  console.log(`A soma de i com 2 é: ${i + 3}`);
+  console.log(`A soma de i com 5 é: ${i + 3}`);
 
   // 1º A soma de i com 2 é: ${3 + 2} = 5
   // 2º A soma de i com 2 é: ${8 + 2} = 10
