@@ -10,7 +10,7 @@ let numero = 5;
 while(numero < 50) {
 
   console.log(numero);
-  // incremento fácail com uma maior quntidade
+  // incremento fácail com uma maior quntidade e bastante utilizada
   numero += 10;
 
   // 1º imprimi 5

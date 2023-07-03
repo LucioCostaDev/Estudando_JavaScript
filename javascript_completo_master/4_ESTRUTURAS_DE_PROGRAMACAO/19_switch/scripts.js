@@ -1,5 +1,14 @@
+// Estrutura condincional: SWITCH
+// Utilizado quando a necessidades de vários IFs, pode ser  utilizado o switch/case
+// Para sair do CASE pode ser ultilzado o break
+// Pode ser utilizado a expressão default, para caso nenhum valor for correspondido
+// Obs. muitos programadores optam por usar vários IFs!
+
+// declaração variavel nome que recebe Matheus 
 let nome = "Matheus";
 
+// Enquanto variavel (nome)
+// Vai imprimir de acordo com a variavel declarada
 switch(nome) {
   case "Matheus":
     console.log("O Nome é Matheus");
