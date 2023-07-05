@@ -24,3 +24,57 @@
 //   console.log(`O número ${num} não é primo`);
 // }
 
+// TESTE 3
+/* Preencha a variável semPares apenas com números ímpares;
+
+Utilize uma estrutura de loop para percorrer o array arr;
+
+Verifique se o número é ímpar e coloque no array semPares;
+
+No final, exiba o array semPares com console.log;
+ */
+// // Array inicial
+// var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// // Array para armazenar os números ímpares
+// var semPares = [];
+
+// // Loop para percorrer o array arr
+// for (var i = 0; i < arr.length; i++) {
+//   var numero = arr[i];
+  
+//   // Verifica se o número é ímpar
+//   if (numero % 2 !== 0) {
+//     semPares.push(numero);
+//   }
+// }
+
+// // Exibe o array semPares no console
+// console.log(semPares);
+
+/* TESTE 4
+Crie uma função chamada classificarNumero que recebe um número inteiro como argumento.
+
+A função deve retornar uma string com a classificação do número de acordo com as seguintes regras:
+
+Se o número for positivo e par, retorne "Positivo e Par".
+
+Se o número for positivo e ímpar, retorne "Positivo e Ímpar".
+
+Se o número for negativo, retorne "Negativo".
+
+Se o número for zero, retorne "Neutro".
+
+function classificarNumero(numero) {
+  if (numero > 0) {
+    if (numero % 2 === 0) {
+      return "Positivo e Par";
+    } else {
+      return "Positivo e Ímpar";
+    }
+  } else if (numero < 0) {
+    return "Negativo";
+  } else {
+    return "Neutro";
+  }
+} */
