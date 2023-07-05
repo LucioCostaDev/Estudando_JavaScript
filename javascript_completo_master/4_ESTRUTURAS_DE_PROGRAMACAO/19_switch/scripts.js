@@ -4,11 +4,13 @@
 // Pode ser utilizado a expressão default, para caso nenhum valor for correspondido
 // Obs. muitos programadores optam por usar vários IFs!
 
+
 // declaração variavel nome que recebe Matheus 
 let nome = "Matheus";
 
 // Enquanto variavel (nome)
 // Vai imprimir de acordo com a variavel declarada
+// Obs. a abertura do switch se da pelo dois pontos : em vez das chaves{}
 switch(nome) {
   case "Matheus":
     console.log("O Nome é Matheus");
