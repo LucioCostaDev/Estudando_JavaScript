@@ -1,6 +1,7 @@
 /* Recursion 
 Uma funcionalidade que permite uma função se chmar novamente;
 Isso pode ser um problema caso a função se chame muitas vezes;
+Exige bastante memória
 */
 
 // criação de função
