@@ -26,5 +26,3 @@ for(num = 0; num <= 50; num++){
   Um número primo, é um número natural, maior que 1 e apenas
   divisível por si próprio e por 1 */
 
-
-
