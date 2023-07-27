@@ -8,7 +8,7 @@ let arr = [1, 4, 5, 6, 7];
 // declaração de array com string
 let nomes = ['Matheus', 'João', 'Aléxia'];
 // declaração de arrays com booleam
-let bool = [true, false, true];
+let bool = [true, false, true];dsaa
 // declaração de array diversificado
 let misturado = [1, 'Matheus', true];
 
