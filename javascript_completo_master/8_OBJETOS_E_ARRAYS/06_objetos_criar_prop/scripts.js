@@ -1,17 +1,26 @@
+/* Objetos: deletando e criando propriedades 
+Podemos adicionar e deletar propriedades ao longo do nosso programa
+*/
+
+//declaração de variavel
 let pessoa = {
   nome: "Matheus",
   idade: 29,
   profissao: "Programador",
 }
 
-console.log(pessoa.nome);
+// aqui vai imprimir o nome que esta dentro da variavel pessoa
+console.log(pessoa.nome); // Matheus
 
+// aqui deleta a propriedade .nome que está dentro da variavel pessoa
 delete pessoa.nome;
 
-console.log(pessoa.nome);
+// console aqui vai imprimir a varival porém da undefined devido  a propriedade ter sido excluida
+console.log(pessoa.nome); // undefined
 
-console.log(pessoa);
-
+// aqui vai imprimir as variveis
+console.log(pessoa); // { idade: 29, profissão: 'Programador' }
+// aqui foi adicionado na variavel pessoa um propriedade .casado que receve false
 pessoa.casado = false;
-
-console.log(pessoa.casado);
+// aqui vai imprimir o resultado da declaraveis
+console.log(pessoa.casado); // false
