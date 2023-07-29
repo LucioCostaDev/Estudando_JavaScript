@@ -1,4 +1,7 @@
+/* Métodos de array: FOREACH 
+Itera cada elemento do array
 
+*/
 
 // declaração de um array
 let nomes = ["Matheus", "Maria", "José", "Pedro", "João"];
