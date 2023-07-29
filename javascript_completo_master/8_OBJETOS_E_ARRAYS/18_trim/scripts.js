@@ -1,8 +1,18 @@
-let nome = " \n   Matheus \n ";
+/* Métodos de sting: trim
+Remove tudo que não é string
+*/
 
-// Olá     Matheus , tudo bem?
+// Obs. \n = da um espaço em branco
 
-let nomeCorrigido = nome.trim();
-
+//declaração de variavel string
+let nome = " \n Matheus \n ";
 console.log(nome);
-console.log(nomeCorrigido);
+/* resposta
+ 
+   Matheus 
+ 
+*/
+
+// declaração para correção = da varialvel nome com metodo string trim
+let nomeCorrigido = nome.trim();
+console.log(nomeCorrigido); // Matheus
