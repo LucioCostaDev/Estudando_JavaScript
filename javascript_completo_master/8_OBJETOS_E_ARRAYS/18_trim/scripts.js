@@ -1,5 +1,5 @@
 /* Métodos de sting: trim
-Remove tudo que não é string
+Remove tudo que não é uma string
 */
 
 // Obs. \n = da um espaço em branco
