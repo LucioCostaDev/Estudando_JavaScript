@@ -1,3 +1,6 @@
+
+
+// declaração de um array
 let nomes = ["Matheus", "Maria", "José", "Pedro", "João"];
 
 nomes.forEach(nome => {
