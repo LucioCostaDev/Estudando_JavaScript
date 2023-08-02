@@ -1,3 +1,9 @@
-let palavra = "Repetir a frase ";
+/* Métodos de string: repeat
+Repete uma string de acordo com um parâmentro number
 
-console.log(palavra.repeat(2));
+*/
+
+// declaração de variavel 
+let palavra = "Repetir a frase ";
+// imprimir a variavel declarada quantas vezes quiser
+console.log(palavra.repeat(2)); //Repetir a frase Repetir a frase 
