@@ -4,7 +4,7 @@ Podemos definir variaveis com propriedades do objetos com uma notação diferent
 Obs.: bastante usado em Angular, Reactr
 */
 
-// declaração de variavel em um objeto
+// declaração de variavel em um objeto, dando valor as propriedades
 let obj = {
   rodas: 4,
   portas: 4,
@@ -17,3 +17,5 @@ const {rodas: vRodas, portas: vPortas, tetosolar: vTetoSolar, motor: vMotor} = o
 
 console.log(vRodas); // 4
 console.log(vPortas); // 4 
+
+// objetivo transforma as propriedades de um objeto de variaveis
