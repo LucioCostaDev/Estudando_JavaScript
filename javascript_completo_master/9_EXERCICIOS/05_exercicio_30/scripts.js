@@ -5,9 +5,9 @@
 
 //declaração de arrays
 let names = ["João", "Maria", "José", "Matheus", "Rodrigo"];
-//estrutura condicional
-if(names.includes("Salete")) {
-  console.log("O nome foi encontrado");
+//estrutura condicional com proprieades .includes Verifica se o array tem um determinado elemento
+if(names.includes("João")) {
+  console.log("O nome foi encontrado"); 
 } else {
   console.log("O nome não foi encontrado");
 }
@@ -29,3 +29,5 @@ if(names.includes("Salete")) {
 // })};
 
 // console.log("O nome é " + nome); 
+
+
