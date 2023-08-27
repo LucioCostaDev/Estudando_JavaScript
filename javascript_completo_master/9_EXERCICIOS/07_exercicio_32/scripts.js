@@ -38,3 +38,4 @@ function tipodovalor() {
 tipodovalor();
 
 // obs. O valor é um objeto porque a variável num é um array, e arrays são objetos em JavaScript. A função typeof retorna o tipo de um valor, e no caso, o tipo do valor num é object.
+

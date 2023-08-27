@@ -1,3 +1,10 @@
+/* Exerciocio 10
+Crie um objeto calculadora;
+Que tem os seguintes métodos: somar, subtrair, multiplicar e dividir 
+Os métodos só devem aceitar dois parâmentros;
+Uilize cada um dos métodos e imprima os valores no console */
+
+// declaração de um objeto calculadora
 const calculadora = {
   soma: function(a, b) {
     return a + b;
