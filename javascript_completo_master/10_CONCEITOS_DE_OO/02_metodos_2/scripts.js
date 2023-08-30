@@ -2,7 +2,7 @@
 Normalmente os métodos integram com os objetos;
 Até mudando os valores das suas propriedades para corresponder a lógica do programa desenvolvido; */
 
-// declaração de metodos
+// declaração de um objeto cachorro obs. o this faz referencia ao cachorro  
 const cachorro = {
   raca: 'SRD',
   uivar: function() {
@@ -13,7 +13,7 @@ const cachorro = {
   },
   setRaca: function(raca) {
     this.raca = raca;
-    //  this significa que ele está falando do contexto recebido ou seja referencia do proprio objeto
+    //  this(este) significa que ele está falando do contexto recebido ou seja referencia do proprio objeto
   },
   getRaca: function() {
     return "A raça é " + this.raca;
